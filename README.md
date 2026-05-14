@@ -10,7 +10,15 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 [![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/zainkhan1994/Hackweek-GenAI/issues/1)
 
+## Visual showcase app
+
+This repo now includes a lightweight, intro-level visual app that highlights completion of the core milestones.
+
+**View it locally**
+
+1. Open `app/index.html` in your browser.
+2. Use the buttons and toggles to animate progress and highlight completed steps.
+
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
