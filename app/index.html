@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hackweek-GenAI | Completion Visual</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="eyebrow">Hackweek-GenAI • Intro Showcase</p>
+        <h1>Completion Visual</h1>
+        <p class="subhead">
+          A lightweight app that highlights progress through the repository milestones and celebrates completion.
+        </p>
+        <div class="hero-actions">
+          <button class="btn primary" id="mark-all">Mark all complete</button>
+          <button class="btn ghost" id="reset">Reset progress</button>
+        </div>
+      </header>
+
+      <section class="status-card" aria-live="polite">
+        <div class="status-header">
+          <h2>Progress snapshot</h2>
+          <span class="progress-text" id="progress-text">0 of 0 complete</span>
+        </div>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <p class="progress-message" id="progress-message">Loading progress…</p>
+      </section>
+
+      <section class="tasks">
+        <div class="tasks-header">
+          <h2>Repository milestones</h2>
+          <p>Toggle each item to visualize progress and reinforce the completion story.</p>
+        </div>
+        <ul class="task-list" id="task-list"></ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Built as an intro-level visual app for Hackweek-GenAI.</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
